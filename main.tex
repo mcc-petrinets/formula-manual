@@ -33,7 +33,7 @@
   pageanchor=true,
   allcolors=[rgb]{0.3,0.3,0.99},
   pdftitle={Property Language Manual},
-  pdfauthor={The MCC 2015-2019 formula team}
+  pdfauthor={The MCC 2015-2021 formula team}
 }
 
 \setlength{\grammarindent}{11em}
@@ -66,7 +66,7 @@
 %\newcommand\atomsafe         {\textbf{safe}\xspace}
 \newcommand\atomisfire[1]    {\textbf{is-fireable}(#1)}
 \newcommand\atomplacebnd[1]  {\textbf{place-bound}(#1)}
-\newcommand\atomtokenscnt[1] {\textbf{token-count}(#1)}
+\newcommand\atomtokenscnt[1] {\textbf{tokens-count}(#1)}
 \newcommand\exprplus         {\boldmath$+$\xspace}
 \newcommand\exprminus        {\boldmath$-$\xspace}
 
@@ -180,7 +180,7 @@
 \Huge
 The Property Language Manual \\[10pt]
 \Large
-Model Checking Contest @ Petri Nets 2020
+Model Checking Contest @ Petri Nets 2021
 
 \vspace{3cm}
 \large
@@ -194,7 +194,7 @@ The \mcc{} formula team, \\
 ~
 \hfill
 \scriptsize
-v\@. Jan\@. 31, 2020
+v\@. Feb\@. 1, 2021
 \normalsize
 
 \clearpage
@@ -206,7 +206,7 @@ v\@. Jan\@. 31, 2020
 \mysubsection{Scope}
 
 This document is intended as a guide for the developers of
-the tools participating in the \mccl{}, edition 2020.
+the tools participating in the \mccl{}, edition 2021.
 It specifically contains:
 
 \begin{itemize}
@@ -997,7 +997,7 @@ These are usual arithmetic operators for integers.
 \end{grammar}
 \end{multicols}
 
-\subsubsection{Token-counting integer operator}
+\subsubsection{Tokens-counting integer operator}
 
 \begin{multicols}{2}
 \begin{lstlisting}
