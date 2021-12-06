@@ -118,9 +118,11 @@
 , backgroundcolor=\color{green!10}
 }
 
-\definecolor{rulercolor}{RGB}{255,255,255}
+\definecolor{rulercolor}{RGB}{12,58,130}
 \definecolor{sectioncolor}{RGB}{0,0,0}
-\definecolor{defaultcolor}{RGB}{11,71,50}
+\definecolor{defaultcolor}{RGB}{12,58,130}
+
+\newcommand{\mccyear}{2022}
 
 \oddsidemargin = 1cm
 \evensidemargin = 1cm
@@ -149,6 +151,7 @@
 \parbox[b][\paperheight]{\paperwidth}{%
 \vfill
 \centering
+%\includegraphics[width=23.5cm,keepaspectratio]{../../Rules/backgroundNext.jpg}%
 \includegraphics[width=23.5cm,keepaspectratio]{backgroundNext.jpg}%
 \vfill
 }}}
@@ -180,7 +183,8 @@
 \Huge
 The Property Language Manual \\[10pt]
 \Large
-Model Checking Contest @ Petri Nets 2021
+Model Checking Contest @ Petri Nets {\mccyear}
+
 
 \vspace{3cm}
 \large
@@ -206,7 +210,7 @@ v\@. Feb\@. 1, 2021
 \mysubsection{Scope}
 
 This document is intended as a guide for the developers of
-the tools participating in the \mccl{}, edition 2021.
+the tools participating in the \mccl{}, edition {\mccyear}.
 It specifically contains:
 
 \begin{itemize}
